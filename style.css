@@ -41,7 +41,7 @@ a{
 .item{
     font-size: 24px;
     color: gold;
-    padding : 4px;
+    margin : 4px;
     border: gold;
     font-family: 'Yuji Syuku', serif;
 }
@@ -73,7 +73,7 @@ a{
 }
 p{
     color: white;
-    font-size: 2px;
+    font-size: 20px;
     line-height: 1.7;
     font-family: serif;
     margin: 10px;
