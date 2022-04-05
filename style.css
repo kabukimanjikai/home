@@ -9,10 +9,11 @@ h3{
 h1{
     font-size:4rem;
 }
+
 .container{
     display: flex;
     flex-direction: row-reverse;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 header,h2,h4{
     color:gold;
@@ -20,6 +21,9 @@ header,h2,h4{
 
     display: flex;
     justify-content: space-around;
+}
+h4{
+    font-size: 1.1rem;
 }
 h2{
     font-size: 2.5rem;
@@ -39,11 +43,16 @@ a{
     color:goldenrod;
 }
 .item{
-    font-size: 24px;
+    font-size: 20px;
     color: gold;
-    margin : 10px;
     border: gold;
     font-family: 'Yuji Syuku', serif;
+}
+.container1{
+    display: inline;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 200px 200px;
 }
 .container2{
     display: flex;
@@ -52,6 +61,8 @@ a{
     grid-template-rows: 200px 200px;
 }
 .item2{
+    
+    justify-content: center;
     padding: 10px;
     margin: 10px;
 }
@@ -62,10 +73,7 @@ a{
     grid-template-columns: 1fr 1fr ;
     grid-template-rows: 200px 200px;
 }
-.item3{
-    padding: 10px;
-    margin: 10px;
-}
+
 .item4{
     display: flex;
     justify-content: center;
@@ -76,10 +84,10 @@ p{
     font-size: 20px;
     line-height: 1.7;
     font-family: serif;
-    margin: 10px;
 }
 footer{
     background-color: gold;
+    align-content: center;
 }
 .item9{
     font-family: 'Yuji Syuku', serif;
@@ -97,6 +105,11 @@ footer{
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;
+    align-items: center;
+}
 
 
+
+.container11{
+    display: inline;
 }
